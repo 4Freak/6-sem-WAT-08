@@ -1,4 +1,4 @@
-using Newtonsoft.Json.Bson;
+п»їusing Newtonsoft.Json.Bson;
 using OpenQA.Selenium;
 using OpenQA.Selenium.DevTools.V108.Network;
 using OpenQA.Selenium.Firefox;
@@ -31,8 +31,8 @@ namespace _08
 
 		// Test D
 		// (using Test C fields)
-		private By _btnCalculate = By.XPath("//input[@type='submit' and @value='Рассчитать']");
-		private By _txtTooBigWeight = By.XPath("//*[text()='Слишком большая масса тела']");
+		private By _btnCalculate = By.XPath("//input[@type='submit' and @value='Р Р°СЃСЃС‡РёС‚Р°С‚СЊ']");
+		private By _txtTooBigWeight = By.XPath("//*[text()='РЎР»РёС€РєРѕРј Р±РѕР»СЊС€Р°СЏ РјР°СЃСЃР° С‚РµР»Р°']");
 
 		// Test E
 		private By _allTxtFields = By.XPath("//input[@type='text']");
@@ -41,11 +41,11 @@ namespace _08
 
 		// Test F
 		// (using Text C fields)
-		private By _txtErrorHeight = By.XPath("//*[text()='Рост должен быть в диапазоне 50-300 см.']");
-		private By _txtErrorWeight = By.XPath("//*[text()='Вес должен быть в диапазоне 3-500 кг.']");
+		private By _txtErrorHeight = By.XPath("//*[text()='Р РѕСЃС‚ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РІ РґРёР°РїР°Р·РѕРЅРµ 50-300 СЃРј.']");
+		private By _txtErrorWeight = By.XPath("//*[text()='Р’РµСЃ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РІ РґРёР°РїР°Р·РѕРЅРµ 3-500 РєРі.']");
 
 		// Test G
-		private By _txtDate = By.XPath("//table//*[contains(text(), 'Расчёт веса')]");
+		private By _txtDate = By.XPath("//table//*[contains(text(), 'Р Р°СЃС‡С‘С‚ РІРµСЃР°')]");
 
 		[SetUp]
 		public void Setup ()
